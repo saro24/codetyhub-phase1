@@ -1,0 +1,203 @@
+<DOCTYPE html>
+    <html>
+<head>
+<title>HOME</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" />
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+     .container {
+ 
+        height: 100vh;
+        width: 100vw;
+        background-image: url(/img/about.png);
+     } 
+     img{
+        height: 100%;
+        width: 100%; 
+     }           
+     .navbar {
+  width: 50px;
+  height: 100vh;
+  /* background-color: #010102; */
+  position: fixed;
+  top: 0;
+  right: 100; 
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar a {
+  display: block;
+  padding: 30px;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  writing-mode: vertical-rl; 
+}
+
+.navbar a:hover {
+  /* background-color: #555; */
+  text-decoration: underline;
+}
+
+.social-icons {
+  width: 50px;
+  height: 60vh;
+  position: fixed;
+  top: 0;
+  left: 100; 
+  padding-top: 170px;
+  display: flex;
+  flex-direction: column;
+    }
+
+    .social-icons a {
+  display: block;
+  padding: 30px;
+  color: #fff;
+  font-size: larger;
+  text-decoration: none;
+  writing-mode: vertical-rl;
+}
+
+.texts {
+  /* background-color: black;  */
+  color: white; 
+  text-align: left; 
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 250px;
+  padding-top: 100px;
+  padding-right: 250px;
+}
+
+.texts h1 {
+  font-size: 3em; 
+}
+
+.texts p {
+  font-size: 1.4em; 
+  line-height: 1.5;
+  padding-top: 50px;
+  /* position: absolute; */
+}
+.contact-page {
+  display: flex;
+  color: #f7f6f1;
+}
+
+.left-side {
+  flex: 1;
+  padding: 250px 50px 50px 150px;
+  text-align: center;
+}
+
+.right-side {
+  flex: 1;
+  padding: 150px 200px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  border: none;
+  background-color: #000;
+  color: #f7f7f7;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  color: #fafaf9;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+ </style>
+        </head>
+
+        <body>
+            
+
+            <div class="container">   
+               
+                  <div class="social-icons">
+             
+                  <a href="https://github.com/saro24"><i class="fab fa-github"></i></a>
+                  <a href="https://discord.com/channels/1156940294198149182/1156940295401910312"><i class="fab fa-discord"></i></a>
+                  <a href="https://www.instagram.com/24_arlene/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/saro-shyaka-arlene-509445186/"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-slack"></i></a>
+             
+          </div>
+          <div class="contact-page">
+    <div class="left-side">
+      <h1 style="color: white;">GET IN TOUCH</h1>
+      <h2 style="color: white;">Let's paint masterpieces together.</h2>
+      <p style="color: white;">Share your vision or commission me; I'm eager to collaborate.</p>
+    </div>
+    <div class="right-side">
+      <form action="/contact" method="post">
+        <label for="full_name" style="color: white;">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required style="color: white; border-bottom: 2px solid white;">
+        <label for="email_address" style="color: white;">Email Address:</label>
+        <input type="email" id="email_address" name="email_address" required style="color: white; border-bottom: 2px solid white;">
+        <label for="message" style="color: white;">Message:</label>
+        <textarea id="message" name="message" required style="color: white; border-bottom: 2px solid white;"></textarea>
+        <button type="submit" style="background-color: #000; border: 2px solid white; color: white;">Send</button>
+      </form>
+    </div>
+  </div>
+        
+
+	
+
+</div>
+   
+<div class="navbar">
+  <a href="portofolioHome.html">Home</a>
+  <a href="portofolioAbout.html">About</a>
+  <a href="portofolioServices.html">Services</a>
+  <a href="portofolioContact.html">Contact</a>
+</div>
+</div>
+        </body>
+    </html>
